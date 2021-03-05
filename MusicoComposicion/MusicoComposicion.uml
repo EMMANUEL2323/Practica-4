@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uezDUH1xEeubd6FqCvapYQ" name="MusicoComposicion">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_utQWEH1xEeubd6FqCvapYQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_1Ot38H1xEeubd6FqCvapYQ" name="java.time.LocalDate"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6LxAwH1xEeubd6FqCvapYQ" name="clases.ito.poo">
+    <packagedElement xmi:type="uml:Class" xmi:id="__WW2UH1xEeubd6FqCvapYQ" name="Composicion">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_DT0xcH1yEeubd6FqCvapYQ" name="titulo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_E4Jq8H1yEeubd6FqCvapYQ" name="duracion" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GskO4H1yEeubd6FqCvapYQ" name="interpretes" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HMnn8H1yEeubd6FqCvapYQ" name="genero" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_INsqcH1yEeubd6FqCvapYQ" name="fechaderegistro" visibility="private" type="_1Ot38H1xEeubd6FqCvapYQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Iy63YH1yEeubd6FqCvapYQ" name="fechadeestreno" visibility="private" type="_1Ot38H1xEeubd6FqCvapYQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rwxhYH1yEeubd6FqCvapYQ" name="interpretes">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_xI1LMH1yEeubd6FqCvapYQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_0q_DUH1yEeubd6FqCvapYQ" name="musico">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
