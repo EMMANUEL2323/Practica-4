@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RcPg0H12Eeubd6FqCvapYQ" name="ExpedientesMedicosUML">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Rd9_IH12Eeubd6FqCvapYQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TQaNIH12Eeubd6FqCvapYQ" name="clases.ito.poo">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZjD28H12Eeubd6FqCvapYQ" name="Expedientes">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vKxTUH2DEeu-GOlP6VTY1A" name="nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3G4OQH2DEeu-GOlP6VTY1A" name="rfc" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3srqAH2DEeu-GOlP6VTY1A" name="fechanacimiento" visibility="private" type="_U0nK0H12Eeubd6FqCvapYQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3-DG0H2DEeu-GOlP6VTY1A" name="fechaconsulta" visibility="private" type="_U0nK0H12Eeubd6FqCvapYQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4TGJwH2DEeu-GOlP6VTY1A" name="sintomas" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_40UAcH2DEeu-GOlP6VTY1A" name="diagnostico" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_aeBFgH2FEeu-GOlP6VTY1A" name="receta" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_y2yAIH2FEeu-GOlP6VTY1A" name="paciente">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_BGoKAH2GEeu-GOlP6VTY1A" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Fj_tMH2GEeu-GOlP6VTY1A" name="consultas">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JznvUH2GEeu-GOlP6VTY1A" name="edad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_U0nK0H12Eeubd6FqCvapYQ" name="java.time.LocalDate"/>
+</uml:Model>

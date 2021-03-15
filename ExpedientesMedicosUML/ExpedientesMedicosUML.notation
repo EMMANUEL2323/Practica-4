@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RcYqwH12Eeubd6FqCvapYQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_TQfFoH12Eeubd6FqCvapYQ" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TQfssH12Eeubd6FqCvapYQ" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TQfssX12Eeubd6FqCvapYQ" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_ZjFsIH12Eeubd6FqCvapYQ" type="Class_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZjGTMH12Eeubd6FqCvapYQ" type="Class_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZjGTMX12Eeubd6FqCvapYQ" type="Class_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ZjGTMn12Eeubd6FqCvapYQ" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ZjG6QH12Eeubd6FqCvapYQ" type="Class_AttributeCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_vLd24H2DEeu-GOlP6VTY1A" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_rUYlsH2FEeu-GOlP6VTY1A" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="ExpedientesMedicosUML.uml#_vKxTUH2DEeu-GOlP6VTY1A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vLd24X2DEeu-GOlP6VTY1A"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_3Hf5UH2DEeu-GOlP6VTY1A" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_ruiyIH2FEeu-GOlP6VTY1A" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="ExpedientesMedicosUML.uml#_3G4OQH2DEeu-GOlP6VTY1A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3Hf5UX2DEeu-GOlP6VTY1A"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_3tCPUH2DEeu-GOlP6VTY1A" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_sBBCMH2FEeu-GOlP6VTY1A" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="ExpedientesMedicosUML.uml#_3srqAH2DEeu-GOlP6VTY1A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3tCPUX2DEeu-GOlP6VTY1A"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_3-ZsIH2DEeu-GOlP6VTY1A" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_sUYqIH2FEeu-GOlP6VTY1A" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="ExpedientesMedicosUML.uml#_3-DG0H2DEeu-GOlP6VTY1A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3-ZsIX2DEeu-GOlP6VTY1A"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_4TiOoH2DEeu-GOlP6VTY1A" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_spf-gH2FEeu-GOlP6VTY1A" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="ExpedientesMedicosUML.uml#_4TGJwH2DEeu-GOlP6VTY1A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4TiOoX2DEeu-GOlP6VTY1A"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_40sa8H2DEeu-GOlP6VTY1A" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_s9KhYH2FEeu-GOlP6VTY1A" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="ExpedientesMedicosUML.uml#_40UAcH2DEeu-GOlP6VTY1A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_40sa8X2DEeu-GOlP6VTY1A"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_aebVMH2FEeu-GOlP6VTY1A" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_uEZ2QH2FEeu-GOlP6VTY1A" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="ExpedientesMedicosUML.uml#_aeBFgH2FEeu-GOlP6VTY1A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_aebVMX2FEeu-GOlP6VTY1A"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_ZjG6QX12Eeubd6FqCvapYQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ZjG6Qn12Eeubd6FqCvapYQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ZjG6Q312Eeubd6FqCvapYQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZjG6RH12Eeubd6FqCvapYQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ZjG6RX12Eeubd6FqCvapYQ" type="Class_OperationCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_y3SWcH2FEeu-GOlP6VTY1A" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="ExpedientesMedicosUML.uml#_y2yAIH2FEeu-GOlP6VTY1A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_y3SWcX2FEeu-GOlP6VTY1A"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_ZjG6Rn12Eeubd6FqCvapYQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ZjG6R312Eeubd6FqCvapYQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ZjG6SH12Eeubd6FqCvapYQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZjG6SX12Eeubd6FqCvapYQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ZjG6Sn12Eeubd6FqCvapYQ" type="Class_NestedClassifierCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_ZjG6S312Eeubd6FqCvapYQ"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ZjG6TH12Eeubd6FqCvapYQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ZjG6TX12Eeubd6FqCvapYQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZjG6Tn12Eeubd6FqCvapYQ"/>
+        </children>
+        <element xmi:type="uml:Class" href="ExpedientesMedicosUML.uml#_ZjD28H12Eeubd6FqCvapYQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZjFsIX12Eeubd6FqCvapYQ" x="14" y="28" width="521" height="301"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_TQfssn12Eeubd6FqCvapYQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TQfss312Eeubd6FqCvapYQ"/>
+    </children>
+    <element xmi:type="uml:Package" href="ExpedientesMedicosUML.uml#_TQaNIH12Eeubd6FqCvapYQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TQfFoX12Eeubd6FqCvapYQ" x="60" y="20" width="561" height="381"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_U0pnEH12Eeubd6FqCvapYQ" type="DataType_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_U0pnEn12Eeubd6FqCvapYQ" type="DataType_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_U0qOIH12Eeubd6FqCvapYQ" type="DataType_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U0qOIX12Eeubd6FqCvapYQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_U0qOIn12Eeubd6FqCvapYQ" type="DataType_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_U0qOI312Eeubd6FqCvapYQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_U0qOJH12Eeubd6FqCvapYQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_U0qOJX12Eeubd6FqCvapYQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U0qOJn12Eeubd6FqCvapYQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_U0qOJ312Eeubd6FqCvapYQ" type="DataType_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_U0qOKH12Eeubd6FqCvapYQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_U0qOKX12Eeubd6FqCvapYQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_U0qOKn12Eeubd6FqCvapYQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U0qOK312Eeubd6FqCvapYQ"/>
+    </children>
+    <element xmi:type="uml:DataType" href="ExpedientesMedicosUML.uml#_U0nK0H12Eeubd6FqCvapYQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U0pnEX12Eeubd6FqCvapYQ" x="680" y="140" width="181" height="161"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_RcYqwX12Eeubd6FqCvapYQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_RcYqwn12Eeubd6FqCvapYQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_RcYqw312Eeubd6FqCvapYQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="ExpedientesMedicosUML.uml#_RcPg0H12Eeubd6FqCvapYQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="ExpedientesMedicosUML.uml#_RcPg0H12Eeubd6FqCvapYQ"/>
+</notation:Diagram>

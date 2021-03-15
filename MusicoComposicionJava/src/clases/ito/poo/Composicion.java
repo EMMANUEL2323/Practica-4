@@ -1,7 +1,9 @@
+package clases.ito.poo;
+
+
 /*******************************************************************************
  * 2021, All rights reserved.
  *******************************************************************************/
-package clases.ito.poo;
 
 import java.time.LocalDate;
 // Start of user code (user defined imports)
@@ -18,32 +20,32 @@ public class Composicion {
 	/**
 	 * Description of the property titulo.
 	 */
-	private String titulo = "";
+	public String titulo = "";
 
 	/**
 	 * Description of the property duracion.
 	 */
-	private float duracion = 0F;
+	public float duracion = 0F;
 
 	/**
 	 * Description of the property interpretes.
 	 */
-	private String interpretes = "";
+	public String interpretes = "";
 
 	/**
 	 * Description of the property genero.
 	 */
-	private String genero = "";
+	public String genero = "";
 
 	/**
 	 * Description of the property fechaderegistro.
 	 */
-	private LocalDate fechaderegistro = null;
+	public LocalDate fechaderegistro = null;
 
 	/**
 	 * Description of the property fechadeestreno.
 	 */
-	private LocalDate fechadeestreno = null;
+	public LocalDate fechadeestreno = null;
 
 	// Start of user code (user defined attributes for Composicion)
 
@@ -57,7 +59,6 @@ public class Composicion {
 		super();
 		// End of user code
 	}
-	
 	public Composicion(String titulo, float duracion, String interpretes, String genero, LocalDate fechaderegistro,
 			LocalDate fechadeestreno) {
 		super();
@@ -179,7 +180,6 @@ public class Composicion {
 	public void setFechadeestreno(LocalDate newFechadeestreno) {
 		this.fechadeestreno = newFechadeestreno;
 	}
-
 	@Override
 	public String toString() {
 		return "Composicion [titulo=" + titulo + ", duracion=" + duracion + ", interpretes=" + interpretes + ", genero="

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_XyalcH2GEeu-GOlP6VTY1A" name="LineaTransporteUML">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_X1dSYH2GEeu-GOlP6VTY1A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ZPLeYH2GEeu-GOlP6VTY1A" name="clases.ito.poo">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ejxkgH2GEeu-GOlP6VTY1A" name="Transporte" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_m1LaAH2GEeu-GOlP6VTY1A" name="marca" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nNAEIH2GEeu-GOlP6VTY1A" name="modelo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nbRJoH2GEeu-GOlP6VTY1A" name="cargamaxima" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_n1MskH2GEeu-GOlP6VTY1A" name="fechaadquisicion" visibility="private" type="_iyLeoH2GEeu-GOlP6VTY1A"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_oDbV0H2GEeu-GOlP6VTY1A" name="viajesrealizados" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_SxC18H2JEeu-GOlP6VTY1A" name="viajesrealizados">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4AtUQIUNEeuE15GlN6Ssig" name="Destino">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_78_joIUNEeuE15GlN6Ssig" name="Direccion">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="__fCuEIUNEeuE15GlN6Ssig" name="fechaViaje" type="_iyLeoH2GEeu-GOlP6VTY1A"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_CVkPQIUOEeuE15GlN6Ssig" name="fechaRegreso" type="_iyLeoH2GEeu-GOlP6VTY1A"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_GhnY8IUOEeuE15GlN6Ssig" name="carga">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Iw_akIUOEeuE15GlN6Ssig" name="monto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_IPbk0IU-EeutWOBZ6-kaXw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_JmOZcIUOEeuE15GlN6Ssig" name="contratacion">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_UGHfwIUOEeuE15GlN6Ssig" name="vehicilo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ym9NsIUOEeuE15GlN6Ssig" name="carga">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_KiyukIU-EeutWOBZ6-kaXw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZDhN4IUOEeuE15GlN6Ssig" name="viajesCancelados">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_gp3UMIUOEeuE15GlN6Ssig" name="vehiculo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_MD2RoIU-EeutWOBZ6-kaXw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_iyLeoH2GEeu-GOlP6VTY1A" name="java.time.LocalDate"/>
+</uml:Model>
