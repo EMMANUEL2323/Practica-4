@@ -1,59 +1,30 @@
 package clases.ito.poo;
 
-
-/*******************************************************************************
- * 2021, All rights reserved.
- *******************************************************************************/
-
+import java.io.Serializable;
 import java.time.LocalDate;
-// Start of user code (user defined imports)
 
-// End of user code
+import excepciones.clases.ito.poo.AgregarInterpretesException;
+import excepciones.clases.ito.poo.DuracionException;
+import excepciones.clases.ito.poo.ExcepcionAgregarInterpretes;
+import excepciones.clases.ito.poo.ExcepcionQuitarInterpretes;
+import excepciones.clases.ito.poo.GeneroException;
+import excepciones.clases.ito.poo.InterpretesException;
+import excepciones.clases.ito.poo.QuitarInterpretesException;
+import excepciones.clases.ito.poo.TituloException;
 
-/**
- * Description of Composicion.
- * 
- * @author emman
- */
-public class Composicion {
 
-	/**
-	 * Description of the property titulo.
-	 */
+public class Composicion implements Serializable, Comparable<Composicion> { 
+
+	
 	public String titulo = "";
-
-	/**
-	 * Description of the property duracion.
-	 */
 	public float duracion = 0F;
-
-	/**
-	 * Description of the property interpretes.
-	 */
 	public String interpretes = "";
-
-	/**
-	 * Description of the property genero.
-	 */
 	public String genero = "";
-
-	/**
-	 * Description of the property fechaderegistro.
-	 */
 	public LocalDate fechaderegistro = null;
-
-	/**
-	 * Description of the property fechadeestreno.
-	 */
 	public LocalDate fechadeestreno = null;
-
-	// Start of user code (user defined attributes for Composicion)
-
-	// End of user code
-
-	/**
-	 * The constructor.
-	 */
+	//private Object interprete;
+	
+	
 	public Composicion() {
 		// Start of user code constructor for Composicion)
 		super();
@@ -70,120 +41,94 @@ public class Composicion {
 		this.fechadeestreno = fechadeestreno;
 	}
 	
-	/**
-	 * Description of the method interpretes.
-	 * @param musico 
-	 * @return 
-	 */
 	public String interpretes(String musico) {
 		// Start of user code for method interpretes
 		String interpretes = "";
 		return interpretes;
 		// End of user code
 	}
-
-	// Start of user code (user defined methods for Composicion)
-
-	// End of user code
-	/**
-	 * Returns titulo.
-	 * @return titulo 
-	 */
+	public boolean agregarInterpretes(String Interpretes) throws ExcepcionAgregarInterpretes,AgregarInterpretesException{
+		boolean agregar = false;
+		if (Interpretes!= null&&!Interpretes.equalsIgnoreCase("")) {
+			this.interpretes=Interpretes;
+				agregar = true;
+		}else
+			throw new ExcepcionAgregarInterpretes("Error: la cantidad debe ser de $100 en $100 y maximo hasta $6000 de retiro");
+			agregar=false;
+		return agregar;
+	}
+	
+	public boolean quitarInterpretes(String Interpretes) throws ExcepcionQuitarInterpretes,QuitarInterpretesException{
+		boolean quitar= false;
+		if (Interpretes.equalsIgnoreCase(this.interpretes)) {
+			this.interpretes=null;
+				quitar = true;
+		}else
+		throw new QuitarInterpretesException("La cantidad a depositar debe ser entre $500 y $25000");
+			quitar=false;
+		return quitar;
+	}
+	
 	public String getTitulo() {
 		return this.titulo;
 	}
 
-	/**
-	 * Sets a value to attribute titulo. 
-	 * @param newTitulo 
-	 */
-	public void setTitulo(String newTitulo) {
+	public void setTitulo(String newTitulo)  throws TituloException{
 		this.titulo = newTitulo;
 	}
 
-	/**
-	 * Returns duracion.
-	 * @return duracion 
-	 */
 	public float getDuracion() {
 		return this.duracion;
 	}
 
-	/**
-	 * Sets a value to attribute duracion. 
-	 * @param newDuracion 
-	 */
-	public void setDuracion(float newDuracion) {
-		this.duracion = newDuracion;
+	public void setDuracion(float duracion) throws DuracionException {
+	    this.duracion = duracion;
+		
 	}
-
-	/**
-	 * Returns interpretes.
-	 * @return interpretes 
-	 */
 	public String getInterpretes() {
 		return this.interpretes;
 	}
 
-	/**
-	 * Sets a value to attribute interpretes. 
-	 * @param newInterpretes 
-	 */
-	public void setInterpretes(String newInterpretes) {
-		this.interpretes = newInterpretes;
+	public void setInterpretes(String Interpretes) throws InterpretesException {
+		this.interpretes = Interpretes;
 	}
 
-	/**
-	 * Returns genero.
-	 * @return genero 
-	 */
 	public String getGenero() {
 		return this.genero;
 	}
 
-	/**
-	 * Sets a value to attribute genero. 
-	 * @param newGenero 
-	 */
-	public void setGenero(String newGenero) {
-		this.genero = newGenero;
+	public void setGenero(String Genero) throws GeneroException {
+		this.genero = Genero;
 	}
 
-	/**
-	 * Returns fechaderegistro.
-	 * @return fechaderegistro 
-	 */
 	public LocalDate getFechaderegistro() {
 		return this.fechaderegistro;
 	}
 
-	/**
-	 * Sets a value to attribute fechaderegistro. 
-	 * @param newFechaderegistro 
-	 */
-	public void setFechaderegistro(LocalDate newFechaderegistro) {
+	public void setFechaderegistro(java.time.LocalDate newFechaderegistro) {
 		this.fechaderegistro = newFechaderegistro;
 	}
 
-	/**
-	 * Returns fechadeestreno.
-	 * @return fechadeestreno 
-	 */
 	public LocalDate getFechadeestreno() {
 		return this.fechadeestreno;
 	}
 
-	/**
-	 * Sets a value to attribute fechadeestreno. 
-	 * @param newFechadeestreno 
-	 */
-	public void setFechadeestreno(LocalDate newFechadeestreno) {
+	public void setFechadeestreno(java.time.LocalDate newFechadeestreno) {
 		this.fechadeestreno = newFechadeestreno;
 	}
+	
+	
 	@Override
 	public String toString() {
 		return "Composicion [titulo=" + titulo + ", duracion=" + duracion + ", interpretes=" + interpretes + ", genero="
 				+ genero + ", fechaderegistro=" + fechaderegistro + ", fechadeestreno=" + fechadeestreno + "]";
 	}
-
+	public int compareTo(Composicion e) {
+		int compare=0;
+		if(this.titulo.equals(e.getTitulo()))
+		compare=-1;
+		else if(!this.titulo.equalsIgnoreCase(e.getTitulo()));
+			compare=1;
+		return compare;
+	}
 }
